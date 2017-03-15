@@ -8,8 +8,7 @@
  * $body.addClass('something');
  */
 
-import jQuery from 'jquery';
-export const $ = jQuery;
 export const $win = $(window);
 export const $doc = $(document);
+export const $html = $('html');
 export const $body = $('body');
