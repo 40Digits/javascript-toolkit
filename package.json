@@ -9,8 +9,8 @@
   "main": "main.js",
   "scripts": {
     "start": "npm run watch:js",
-    "build:js": "webpack --config ./webpack.config.js --output-path ../assets/js",
-    "watch:js": "webpack -d --watch --config ./webpack.config.js --output-path ../assets/js",
+    "build:js": "webpack --config ./webpack.config.js --output-path ../../assets/js",
+    "watch:js": "webpack -d --watch --config ./webpack.config.js --output-path ../../assets/js",
     "analyze": "webpack --config ./webpack.config.js --json | webpack-bundle-size-analyzer"
   },
   "author": "40Digits Developers <developers@40digits.com>",
